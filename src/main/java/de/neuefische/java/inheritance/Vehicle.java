@@ -9,7 +9,7 @@ public class Vehicle extends Object{
     protected int speed;
 
     public Vehicle() {
-        this.wheelCount = 4;
+
     }
 
     public Vehicle(int wheelCount, String color, int speed) {
