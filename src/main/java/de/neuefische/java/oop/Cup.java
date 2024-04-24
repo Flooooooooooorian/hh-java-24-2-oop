@@ -1,4 +1,4 @@
-package oop;
+package de.neuefische.java.oop;
 
 public class Cup {
 

@@ -1,4 +1,4 @@
-package oop;
+package de.neuefische.java.oop;
 
 public class Main {
 
@@ -42,5 +42,12 @@ public class Main {
         else {
             System.out.println("nicht gleich");
         }
+
+        Library myLibrary = new Library(new Book[]{
+                new Book("978-0132350884", "Effective Java", "Joshua Bloch", "Daniel"),
+                new Book("978-0132350885", "Effective Java Teil 2", "Joshua Bloch JR", "Viktor"),
+                new Book("978-0132350886", "Effective Java Advanced", "Joshua Bloch SR", "Aljoscha")
+        });
+        myLibrary.addBook(new Book("978-013235088000", "Effe Java", "Joshuloch", "Dael"));
     }
 }
